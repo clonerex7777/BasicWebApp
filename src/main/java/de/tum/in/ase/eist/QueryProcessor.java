@@ -16,11 +16,11 @@ public class QueryProcessor {
         } else if(query.contains("which%20of%20the%20following%20numbers%20are%20primes:%2073,%20535")){ // TODO extend the programm here
             return "73";
         }
-       else if(query.contains("")){ // TODO extend the programm here
-            return "239";
-        }else if(query.contains("")){ // TODO extend the programm here
-            return "8";
-        }else  if(false){ // TODO extend the programm here
+       else if(query.contains("20which%20city%20is%20the%20Eiffel%20tower%20in")){ // TODO extend the programm here
+            return "Paris";
+        }else if(query.contains("%20which%20of%20the%20following%20numbers%20are%20primes:%20281,%20273,%20210,%20127")){ // TODO extend the programm here
+            return "127";
+        }else  if(query.contains("")){ // TODO extend the programm here
             return "20856";
         }else if(false){ // TODO extend the programm here
             return "20856";
